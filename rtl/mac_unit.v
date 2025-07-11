@@ -156,9 +156,7 @@ assign status = status_reg;
 // DSP48E1/E2 Optimization Attributes
 //=============================================================================
 // These attributes help Vivado map the MAC operations to DSP slices efficiently
-(* USE_DSP = "YES" *)
-(* attribute USE_DSP of mult_pipeline : signal is "YES" *)
-(* attribute USE_DSP of accumulator : signal is "YES" *)
+// Note: These are Vivado-specific attributes and may not be recognized by Icarus Verilog
 
 //=============================================================================
 // DSP48E1/E2 Specific Optimizations

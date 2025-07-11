@@ -230,4 +230,6 @@ assign system_status = system_status_reg;
 // - DDC lock status and performance
 // - FIR filter operation status
 // - Decimation chain status
-// - Overall system health 
+// - Overall system health
+
+endmodule 

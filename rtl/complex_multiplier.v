@@ -105,10 +105,6 @@ assign ready = !processing;
 // DSP48E1/E2 Optimization Attributes
 //=============================================================================
 // These attributes help Vivado map the multipliers to DSP slices efficiently
-(* USE_DSP = "YES" *)
-(* attribute USE_DSP of real_real_prod : signal is "YES" *)
-(* attribute USE_DSP of imag_imag_prod : signal is "YES" *)
-(* attribute USE_DSP of real_imag_prod : signal is "YES" *)
-(* attribute USE_DSP of imag_real_prod : signal is "YES" *)
+// Note: These are Vivado-specific attributes and may not be recognized by Icarus Verilog
 
 endmodule 

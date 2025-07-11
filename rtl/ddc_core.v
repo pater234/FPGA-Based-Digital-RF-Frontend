@@ -4,8 +4,8 @@
 // This module implements the main Digital Downconversion (DDC) core
 // featuring NCO, complex multiplication, and I/Q signal separation
 //
-// Author: DSP Engineer
-// Date: 2024
+// Author: pater234
+// Date: 2025
 // Target: Xilinx Series 7, UltraScale, UltraScale+
 //=============================================================================
 
